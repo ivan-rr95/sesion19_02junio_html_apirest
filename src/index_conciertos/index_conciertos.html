@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conciertos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c930e4b2cf.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="titulo text-center">
+        <h1>Discográfica</h1>
+    </div>
+    <header>
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Crta. Molins de Rei, km 8, 08174 Rubí, Barcelona</small>
+                        <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>689 01 71 88</small>
+                        <small class="text-light"><i class="fa fa-envelope-open me-2"></i>discografica@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Carousel Start -->
+    <div id="subcabecera" class="container-fluid bg-primary px-5 d-none d-lg-block position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 bg-danger bg-gradient py-3 py-lg-0">
+            <a href="../index/index.html" class="navbar-brand p-0">
+                <img src="cd.png" alt="">
+            </a>
+            <button class="navbar-toggler border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="../index_discos/index_discos.html" class="nav-item nav-link active">Discos</a>
+                    <a href="index_conciertos.html" class="nav-item nav-link">Conciertos</a>
+                    <a href="../index_locales/index_locales.html" class="nav-item nav-link">Locales</a>
+                    <a href="../index_grupos/index_grupos.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Grupos</a>
+                </div>
+                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                <a href="index.html" class="btn btn-primary py-2 px-4 ms-3"><i class="fa-solid fa-compact-disc"></i></a>
+            </div>
+        </nav>
+
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   
+                        <img class="discografica w-100 h-50" src="https://www.miguelrms.com/wp-content/uploads/compa%C3%B1%C3%ADa-discogr%C3%A1fica.jpg" alt="Image">
+                    
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creatividad y Innovación</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Innovación en sonido digital</h1>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Precios</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactanos</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <h1 class="text-center">Conciertos</h1>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="tablaconciertos">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="conciertos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>      
+</body>    
